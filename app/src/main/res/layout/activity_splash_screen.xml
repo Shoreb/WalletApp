@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1565C0"
+    android:background="@color/md_theme_primary"
     tools:context=".splashScreen">
 
     <!-- 1. LOGO DE LA APLICACIÓN -->
@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintVertical_chainStyle="packed"/>
 
     <!-- 2. NOMBRE DE LA APLICACIÓN -->
     <com.google.android.material.textview.MaterialTextView
@@ -71,7 +71,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:trackColor="#40FFFFFF"
+        app:trackColor="@color/white_transparent_40"
         app:trackCornerRadius="4dp" />
 
 
